@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    height: 90vh;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 32px;
+    align-items: center;
+}
+
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px; 
+    align-items: center;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    gap: 12px;
+}
+
+.grid {
+    display: grid;
+    height: 600px;
+    width: 600px;
+    justify-self: center;
+}
+
+div {
+   
+}
+
+button {
+    width: 75px;
+    height: 40px;
+}
