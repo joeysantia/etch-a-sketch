@@ -1,5 +1,4 @@
 const grid = document.querySelector('.grid')
-let square = document.querySelector('div')
 
 function makeGrid (rows,cols) {
     
@@ -18,11 +17,11 @@ function makeGrid (rows,cols) {
 }
 makeGrid(16,16)
 
-const cellList = document.querySelectorAll('div')
+function cellList() {
+    return document.querySelectorAll('div')
+}
 
 
-
-const shadeButton = document.querySelector('#shade')
 
 const resetButton = document.querySelector('#reset')
 resetButton.addEventListener('click', (e) => {
@@ -42,9 +41,18 @@ resetButton.addEventListener('click', (e) => {
 
 const rainbowButton = document.querySelector('#rainbow')                                                                                                                                                            
 rainbowButton.addEventListener('click', (e) => {
-    cellList.forEach((div) => {
+    cellList().forEach((div) => {
         div.addEventListener('mouseover', () => {
             div.style.backgroundColor = `rgb(${Math.floor(Math.random() * 255)}, ${Math.floor(Math.random() * 255)}, ${Math.floor(Math.random() * 255)})`
+        })
+    })
+})
+
+const eraseButton = document.querySelector('#erase')
+eraseButton.addEventListener('click', (e) => {
+    cellList().forEach((div) => {
+        div.addEventListener('mouseover', () => {
+            div.style.backgroundColor = 'white';
         })
     })
 })

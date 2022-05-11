@@ -12,6 +12,8 @@ body {
     flex-wrap: wrap;
     gap: 32px; 
     align-items: center;
+    position: relative;
+    right: 47px;
 }
 
 aside {
@@ -26,10 +28,7 @@ aside {
     height: 600px;
     width: 600px;
     justify-self: center;
-}
-
-div {
-   
+    border: 3px solid black;
 }
 
 button {
