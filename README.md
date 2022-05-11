@@ -1,6 +1,6 @@
 # etch-a-sketch
 
-This is an etch-a-sketch made with JavaScript, HTML, and CSS. This was an exercise in event listeners, DOM manipulation, and prompts.
+This is an etch-a-sketch made with JavaScript, HTML, and CSS. This was an exercise in event listeners, DOM manipulation, and prompts. The etch-a-sketch allows for custom grid dimensions, a random-color mode, and an erase mode.
 
 NOTE: due to Git errors, previous versions of this project were lost. This version was originally uploaded on February 15th.
 
