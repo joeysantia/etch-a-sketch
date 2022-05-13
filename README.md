@@ -8,6 +8,6 @@ NOTE: due to Git errors, previous versions of this project were lost. This versi
 
 FURTHER CHANGES
 1. Shade-in button (10% darker with each mouseover event)
-2. Color picker button
+2. Color wheel button
 3. Make the rainbow feature more "rainbow" - only allow a certain range of colors
 4. Expand CSS (perhaps mimic a real etch-a-sketch?)
